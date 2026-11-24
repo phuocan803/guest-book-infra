@@ -1,6 +1,6 @@
 variable "name" { type = string }
 variable "availability_zone" { type = string }
-v "ariable" "vpc_cidr" {
+variable "vpc_cidr" {
   type = string
   validation {
     condition     = can(cidrnetmask(var.vpc_cidr))
