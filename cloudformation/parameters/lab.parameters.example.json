@@ -1,0 +1,11 @@
+[
+  {"ParameterKey":"NamePrefix","ParameterValue":"lab-cfn"},
+  {"ParameterKey":"AvailabilityZone","ParameterValue":"us-east-1a"},
+  {"ParameterKey":"VpcCidr","ParameterValue":"10.20.0.0/16"},
+  {"ParameterKey":"PublicSubnetCidr","ParameterValue":"10.20.1.0/24"},
+  {"ParameterKey":"PrivateSubnetCidr","ParameterValue":"10.20.2.0/24"},
+  {"ParameterKey":"AdminCidr","ParameterValue":"203.0.113.10/32"},
+  {"ParameterKey":"AmiId","ParameterValue":"ami-REPLACE"},
+  {"ParameterKey":"InstanceType","ParameterValue":"t3.micro"},
+  {"ParameterKey":"KeyName","ParameterValue":"lab"}
+]
